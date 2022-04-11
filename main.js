@@ -8,7 +8,16 @@ var closee = document.getElementById("close")
 var imgContainer;
 //console.log(imgList)
 
-
+var scrollRev = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+scrollRev.reveal('.back-title')
+scrollRev.reveal('.buttons' , {delay : 300})
+scrollRev.reveal('.img-slider' , {delay :400})
+scrollRev.reveal('.col-md-4' , {interval :400})
 for(i=0; i<imgList.length; i++){
     imgList[i].addEventListener("click", function(e){
         lightBox.style.display = "flex";

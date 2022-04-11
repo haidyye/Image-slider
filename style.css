@@ -2,18 +2,10 @@
     /* width: 15%; */
     margin-right: 10px;
 }
-#navBar{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 1;
-    box-shadow: 0px 1px #e4dede52;
-    margin: auto;
-    width: 100%;
-}
+.navBar a{
+color: black;}
 .back{
-    background-image: url(imgs/img_7775.jpg);
+    background-image: url(imgs/back.webp);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -69,7 +61,16 @@
     color: #ffff !important;
     background-color: blanchedalmond;
 }
-
+.about{
+    background-color: rgb(205, 215, 217);
+}
+.about-title {
+    padding: 10px;
+}
+.about-title h2{
+    font-family: "cormorant-garamond", serif;
+    
+}
 @media only screen and (max-width: 621px) {
     #lightBoxItem {
         width: 80%;
