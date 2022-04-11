@@ -1,0 +1,110 @@
+.sora{
+    /* width: 15%; */
+    margin-right: 10px;
+}
+#navBar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1;
+    box-shadow: 0px 1px #e4dede52;
+    margin: auto;
+    width: 100%;
+}
+.back{
+    background-image: url(imgs/img_7775.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.icona{
+    display: none !important;
+}
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.212);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+
+ width: 40%;
+ height: 450px;
+ background-image: url(imgs/8.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ background-color: aqua;
+}
+#nextBtn{
+    cursor: pointer !important;
+    font-size: 19px !important;
+    color: #ffff !important;
+    background-color: blanchedalmond;
+}
+#prevBtn{
+    cursor: pointer !important;
+    font-size: 19px !important;
+    color: #ffff !important;
+    background-color: blanchedalmond;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer !important;
+    font-size: 19px !important;
+    color: #ffff !important;
+    background-color: blanchedalmond;
+}
+
+@media only screen and (max-width: 621px) {
+    #lightBoxItem {
+        width: 80%;
+        height: 400px;
+        margin: 30px;
+        padding: 20px;
+        background-position: center;
+      background-size: cover;
+    }
+}
+
+@media only screen  and (min-width: 622px)and (max-width: 768px) {
+    #lightBoxItem {
+        width: 70%;
+        height: 400px;
+        margin: 20px;
+        background-position: center;
+      background-size: cover;
+    }
+}
+@media only screen  and (max-width: 768px){
+ .icona{
+     display: flex !important;
+ }
+ #navBar{
+     display: none;
+ }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px){
+    #lightBoxItem {
+      width: 50%;
+      height: 400px;
+      margin: 20px;
+      background-position: center;
+      background-size: cover;
+    }
+
+}
